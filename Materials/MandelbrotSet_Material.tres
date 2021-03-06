@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Materials/MandelbrotSet.shader" type="Shader" id=1]
+
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/MAX_ITERATIONS = 250
+shader_param/minCoords = Vector2( -2.502, -1 )
+shader_param/maxCoords = Vector2( 1, 1 )
+shader_param/screenSize = Vector2( 1918.73, 1080 )
